@@ -1,0 +1,7 @@
+{
+    "name": "PHP Dev Container",
+    "image": "mattrayner/lamp:latest",
+    "forwardPorts": [80],
+    "postCreateCommand": "composer install",
+    "extensions": ["felixfbecker.php-intellisense"]
+}
