@@ -10,5 +10,6 @@ if(!empty($imagens)){
     }
 }
 }
+header("Location: index.php");
 
 ?>
